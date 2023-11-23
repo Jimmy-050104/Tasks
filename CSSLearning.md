@@ -19,14 +19,14 @@ HTML元素以id属性来设置id选择器,CSS 中 id 选择器以 "#" 来定义�
 ```
 **ID属性不要以数字开头**
 ## class选择器
-class 选择器用于描述一组元素的样式，class 选择器有别于id选择器，class可以在多个元素中使用。  
-class 选择器在 HTML 中以 class 属性表示, 在 CSS 中，类选择器以一个点 . 号显示：
-在以下的例子中，所有拥有 center 类的 HTML 元素均为居中。
+class 选择器用于描述一组元素的样式，class 选择器有别于id选择器，class可以在多个元素中使用。    
+class 选择器在 HTML 中以 class 属性表示, 在 CSS 中，类选择器以一个点 . 号显示：  
+在以下的例子中，所有拥有 center 类的 HTML 元素均为居中。  
 `.center{text-align:center;}`
 你也可以指定特定的HTML元素使用class  
-在以下实例中，所有的p元素使用class="center"让该元素的文本居中
-`p.center{text-align:center;}`
-多个class选择器可以使用空格分开：
+在以下实例中，所有的p元素使用class="center"让该元素的文本居中  
+`p.center{text-align:center;}`  
+多个class选择器可以使用空格分开：  
 ```
 .center{text-align:center;}
 .color{colot:#ff0000;}
